@@ -13,7 +13,7 @@ Acceso de usuarios, búsqueda, filtros, paginación, carrito (añadir/eliminar/r
 - Grid: catálogo y destacados (3 columnas, gap, filas que crecen, primera ficha ocupa 2 columnas).
 
 ## Imágenes
-Ilustraciones SVG sencillas creadas para el proyecto.
+Ilustraciones JPG y SVG sencillas creadas para el proyecto.
 
 ## Documentación
 - [Propuesta](docs/propuesta.md)
