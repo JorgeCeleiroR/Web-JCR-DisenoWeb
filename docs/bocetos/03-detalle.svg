@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" font-family="Arial" font-size="14">
+<rect width="800" height="620" fill="#fff"/>
+<text x="10" y="610" fill="#555" font-size="12">Boceto: Detalle (detalle.html)</text>
+<rect x="0" y="0" width="800" height="50" fill="#d6ecfa" stroke="#333" stroke-width="2" rx="4"/>
+<text x="400.0" y="30.0" text-anchor="middle">SurfAlquila          Inicio | Catálogo | Reservar | Carrito | Acceder</text>
+<rect x="0" y="560" width="800" height="40" fill="#d6ecfa" stroke="#333" stroke-width="2" rx="4"/>
+<text x="400.0" y="585.0" text-anchor="middle">Pie de página</text>
+<rect x="40" y="70" width="340" height="300" fill="#f2f2f2" stroke="#333" stroke-width="2" rx="4"/>
+<text x="210.0" y="225.0" text-anchor="middle">Imagen de la tabla</text>
+<text x="410" y="90">Nombre: Tabla soft 7'0 (H1)</text>
+<rect x="410" y="110" width="350" height="60" fill="#f2f2f2" stroke="#333" stroke-width="2" rx="4"/>
+<text x="585.0" y="145.0" text-anchor="middle">Descripción ampliada</text>
+<rect x="410" y="180" width="350" height="90" fill="#f2f2f2" stroke="#333" stroke-width="2" rx="4"/>
+<text x="585.0" y="230.0" text-anchor="middle">Características (lista)</text>
+<text x="410" y="300">Precio: 12 € por día</text>
+<rect x="410" y="320" width="160" height="40" fill="#d6ecfa" stroke="#333" stroke-width="2" rx="4"/>
+<text x="490.0" y="345.0" text-anchor="middle">[Añadir al carrito]</text>
+<rect x="590" y="320" width="170" height="40" fill="#f2f2f2" stroke="#333" stroke-width="2" rx="4"/>
+<text x="675.0" y="345.0" text-anchor="middle">[Volver al catálogo]</text>
+</svg>

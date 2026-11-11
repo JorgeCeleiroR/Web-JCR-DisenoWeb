@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" font-family="Arial" font-size="14">
+<rect width="800" height="620" fill="#fff"/>
+<text x="10" y="610" fill="#555" font-size="12">Boceto: Carrito (carrito.html)</text>
+<rect x="0" y="0" width="800" height="50" fill="#d6ecfa" stroke="#333" stroke-width="2" rx="4"/>
+<text x="400.0" y="30.0" text-anchor="middle">SurfAlquila          Inicio | Catálogo | Reservar | Carrito | Acceder</text>
+<rect x="0" y="560" width="800" height="40" fill="#d6ecfa" stroke="#333" stroke-width="2" rx="4"/>
+<text x="400.0" y="585.0" text-anchor="middle">Pie de página</text>
+<rect x="40" y="60" width="720" height="30" fill="#fff3cd" stroke="#333" stroke-width="2" rx="4"/>
+<text x="400.0" y="80.0" text-anchor="middle">Aviso: Prototipo, el carrito no se modifica</text>
+<rect x="40" y="110" width="720" height="70" fill="#f2f2f2" stroke="#333" stroke-width="2" rx="4"/>
+<text x="400.0" y="150.0" text-anchor="middle">Producto 1 | cantidad | precio unitario | subtotal | [Eliminar]</text>
+<rect x="40" y="195" width="720" height="70" fill="#f2f2f2" stroke="#333" stroke-width="2" rx="4"/>
+<text x="400.0" y="235.0" text-anchor="middle">Producto 2 | cantidad | precio unitario | subtotal | [Eliminar]</text>
+<text x="600" y="300">Total por día: 28 €</text>
+<rect x="40" y="330" width="220" height="40" fill="#f2f2f2" stroke="#333" stroke-width="2" rx="4"/>
+<text x="150.0" y="355.0" text-anchor="middle">[Seguir explorando]</text>
+<rect x="540" y="330" width="220" height="40" fill="#d6ecfa" stroke="#333" stroke-width="2" rx="4"/>
+<text x="650.0" y="355.0" text-anchor="middle">[Completar solicitud]</text>
+</svg>

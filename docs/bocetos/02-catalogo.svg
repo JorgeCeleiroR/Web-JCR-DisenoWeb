@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" font-family="Arial" font-size="14">
+<rect width="800" height="620" fill="#fff"/>
+<text x="10" y="610" fill="#555" font-size="12">Boceto: Catálogo (catalogo.html)</text>
+<rect x="0" y="0" width="800" height="50" fill="#d6ecfa" stroke="#333" stroke-width="2" rx="4"/>
+<text x="400.0" y="30.0" text-anchor="middle">SurfAlquila          Inicio | Catálogo | Reservar | Carrito | Acceder</text>
+<rect x="0" y="560" width="800" height="40" fill="#d6ecfa" stroke="#333" stroke-width="2" rx="4"/>
+<text x="400.0" y="585.0" text-anchor="middle">Pie de página</text>
+<rect x="40" y="60" width="720" height="30" fill="#fff3cd" stroke="#333" stroke-width="2" rx="4"/>
+<text x="400.0" y="80.0" text-anchor="middle">Aviso: Prototipo, la búsqueda no modifica resultados</text>
+<rect x="40" y="100" width="720" height="40" fill="#f2f2f2" stroke="#333" stroke-width="2" rx="4"/>
+<text x="400.0" y="125.0" text-anchor="middle">Buscar material: [__________]  [Buscar]</text>
+<rect x="40" y="150" width="720" height="50" fill="#f2f2f2" stroke="#333" stroke-width="2" rx="4"/>
+<text x="400.0" y="180.0" text-anchor="middle">Filtros: Tipo [v]  Precio máx. [__]  [Aplicar filtros]</text>
+<text x="40" y="225">Mostrando 1–6 de 18 resultados</text>
+<rect x="40" y="235" width="470" height="150" fill="#f2f2f2" stroke="#333" stroke-width="2" rx="4"/>
+<text x="275.0" y="315.0" text-anchor="middle">Ficha 1 destacada (ocupa 2 columnas) + enlace Ver detalle</text>
+<rect x="540" y="235" width="220" height="150" fill="#f2f2f2" stroke="#333" stroke-width="2" rx="4"/>
+<text x="650.0" y="315.0" text-anchor="middle">Ficha 2</text>
+<rect x="40" y="395" width="220" height="150" fill="#f2f2f2" stroke="#333" stroke-width="2" rx="4"/>
+<text x="150.0" y="475.0" text-anchor="middle">Ficha 3</text>
+<rect x="290" y="395" width="220" height="150" fill="#f2f2f2" stroke="#333" stroke-width="2" rx="4"/>
+<text x="400.0" y="475.0" text-anchor="middle">Ficha 4</text>
+<rect x="540" y="395" width="220" height="150" fill="#f2f2f2" stroke="#333" stroke-width="2" rx="4"/>
+<text x="650.0" y="475.0" text-anchor="middle">Ficha 5 / 6</text>
+<rect x="200" y="515" width="400" height="35" fill="#f2f2f2" stroke="#333" stroke-width="2" rx="4"/>
+<text x="400.0" y="537.5" text-anchor="middle">[Anterior]  [1 actual]  2  3  [Siguiente]</text>
+</svg>

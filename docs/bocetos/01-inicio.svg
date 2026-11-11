@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" font-family="Arial" font-size="14">
+<rect width="800" height="620" fill="#fff"/>
+<text x="10" y="610" fill="#555" font-size="12">Boceto: Página de inicio (index.html)</text>
+<rect x="0" y="0" width="800" height="50" fill="#d6ecfa" stroke="#333" stroke-width="2" rx="4"/>
+<text x="400.0" y="30.0" text-anchor="middle">SurfAlquila          Inicio | Catálogo | Reservar | Carrito | Acceder</text>
+<rect x="0" y="560" width="800" height="40" fill="#d6ecfa" stroke="#333" stroke-width="2" rx="4"/>
+<text x="400.0" y="585.0" text-anchor="middle">Pie de página</text>
+<rect x="40" y="70" width="720" height="150" fill="#e8f4fc" stroke="#333" stroke-width="2" rx="4"/>
+<text x="400.0" y="150.0" text-anchor="middle">Portada: título H1 + texto + botón [Ver catálogo]</text>
+<text x="40" y="260">Material destacado</text>
+<rect x="40" y="275" width="220" height="250" fill="#f2f2f2" stroke="#333" stroke-width="2" rx="4"/>
+<text x="150.0" y="405.0" text-anchor="middle">Tarjeta 1: imagen, nombre, precio</text>
+<rect x="290" y="275" width="220" height="250" fill="#f2f2f2" stroke="#333" stroke-width="2" rx="4"/>
+<text x="400.0" y="405.0" text-anchor="middle">Tarjeta 2: imagen, nombre, precio</text>
+<rect x="540" y="275" width="220" height="250" fill="#f2f2f2" stroke="#333" stroke-width="2" rx="4"/>
+<text x="650.0" y="405.0" text-anchor="middle">Tarjeta 3: imagen, nombre, precio</text>
+</svg>
