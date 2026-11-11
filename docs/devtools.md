@@ -38,6 +38,3 @@ Sin la regla `.boton`, el texto del botón se vería azul sobre fondo azul y no 
 
 **Altura:** el alto del contenido (602,328 px) no es fijo; se adapta al contenido de la tarjeta (imagen, texto y precio).
 
-## 3. Distribución Flexbox o Grid
-
-*Pendiente de añadir.* Hay que hacer una captura de `.rejilla` en `catalogo.html` con la superposición de Grid y los números de línea activados (pestaña Layout), y explicar qué muestra.
