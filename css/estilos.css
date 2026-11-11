@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: #0a2540;
+  background-color: #f2f9ff;
+}
+h1, h2, h3, a {
+  color: #0b3d91;
+}
+header, footer {
+  background-color: #d6ecfa;
+  padding: 16px;
+}
+[aria-current="page"] {
+  font-weight: bold;
+  text-decoration: underline;
+}
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+header, nav ul, .acciones, .buscador, .opciones, .paginacion, .fila-carrito, .detalle {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+header {
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+}
+.rejilla {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 2px solid #0b3d91;
+  padding: 16px;
+}
+.destacada {
+  grid-column: span 2;
+}
+img {
+  max-width: 100%;
+}
+.boton {
+  background-color: #0b3d91;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.boton:hover {
+  background-color: #1f78c1;
+}
+:focus-visible {
+  outline: 3px solid orange;
+}
+.aviso {
+  border: 2px solid orange;
+  padding: 8px;
+}
