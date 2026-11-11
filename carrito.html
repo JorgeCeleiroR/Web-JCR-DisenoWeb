@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Carrito - SurfAlquila</title>
+  <!-- Hoja de estilos externa compartida por todas las páginas -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <!-- Cabecera con logo y navegación (FLEXBOX) -->
+  <header>
+    <p class="logo">🌊 SurfAlquila</p>
+    <nav>
+      <ul><li><a href="index.html">Inicio</a></li><li><a href="catalogo.html">Catálogo</a></li><li><a href="formulario.html">Reservar</a></li><li><a href="carrito.html" aria-current="page">Carrito</a></li><li><a href="login.html">Acceder</a></li></ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Tu selección</h1>
+
+    <!-- Cada fila del carrito usa FLEXBOX -->
+    <section>
+      <article class="fila-carrito">
+        <p class="nombre">Tabla soft 7'0</p>
+        <p>Cantidad: 1</p>
+        <p>Precio: 12 €</p>
+        <p>Subtotal: 12 €</p>
+        <button type="button" class="boton secundario">Eliminar</button>
+      </article>
+      <article class="fila-carrito">
+        <p class="nombre">Neopreno 3/2</p>
+        <p>Cantidad: 2</p>
+        <p>Precio: 8 €</p>
+        <p>Subtotal: 16 €</p>
+        <button type="button" class="boton secundario">Eliminar</button>
+      </article>
+      <p class="total">Total por día: 28 €</p>
+    </section>
+
+    <div class="acciones">
+      <a class="boton secundario" href="catalogo.html">Seguir explorando</a>
+      <a class="boton" href="formulario.html">Completar solicitud</a>
+    </div>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2026 SurfAlquila - JCR</p>
+  </footer>
+</body>
+</html>

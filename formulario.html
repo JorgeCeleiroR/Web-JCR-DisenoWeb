@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solicitar reserva - SurfAlquila</title>
+  <!-- Hoja de estilos externa compartida por todas las páginas -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <!-- Cabecera con logo y navegación (FLEXBOX) -->
+  <header>
+    <p class="logo">🌊 SurfAlquila</p>
+    <nav>
+      <ul><li><a href="index.html">Inicio</a></li><li><a href="catalogo.html">Catálogo</a></li><li><a href="formulario.html" aria-current="page">Reservar</a></li><li><a href="carrito.html">Carrito</a></li><li><a href="login.html">Acceder</a></li></ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Solicitar reserva</h1>
+    <form action="#">
+      <fieldset>
+        <legend>Datos de contacto</legend>
+        <div class="campo">
+          <label for="nombre">Nombre completo *</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="campo">
+          <label for="email">Correo electrónico *</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="campo">
+          <label for="tel">Teléfono (opcional)</label>
+          <input type="tel" id="tel" name="tel">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Material</legend>
+        <div class="campo">
+          <label for="material">Material principal *</label>
+          <select id="material" name="material" required>
+            <option value="">Elige una opción</option>
+            <option>Tabla soft 7'0</option>
+            <option>Shortboard 6'2</option>
+            <option>Longboard 9'0</option>
+            <option>Pack principiante</option>
+          </select>
+        </div>
+        <div class="campo">
+          <label for="fecha">Fecha de recogida *</label>
+          <input type="date" id="fecha" name="fecha" required>
+        </div>
+        <div class="campo">
+          <label for="dias">Número de días (1 a 14) *</label>
+          <input type="number" id="dias" name="dias" min="1" max="14" required>
+        </div>
+        <!-- Los botones de opción cuentan como un solo campo -->
+        <p>Nivel de surf *</p>
+        <div class="opciones">
+          <input type="radio" id="n1" name="nivel" value="principiante" required>
+          <label for="n1">Principiante</label>
+          <input type="radio" id="n2" name="nivel" value="medio">
+          <label for="n2">Medio</label>
+          <input type="radio" id="n3" name="nivel" value="experto">
+          <label for="n3">Experto</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Otros datos</legend>
+        <div class="campo">
+          <label for="coment">Comentarios (opcional)</label>
+          <textarea id="coment" name="coment" rows="4"></textarea>
+        </div>
+        <div class="opciones">
+          <input type="checkbox" id="acepto" name="acepto" required>
+          <label for="acepto">Acepto las condiciones de alquiler *</label>
+        </div>
+      </fieldset>
+
+      <!-- Acciones del formulario con FLEXBOX -->
+      <div class="acciones">
+        <button type="submit" class="boton">Solicitar reserva</button>
+        <a class="boton secundario" href="catalogo.html">Volver al catálogo</a>
+      </div>
+    </form>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2026 SurfAlquila - JCR</p>
+  </footer>
+</body>
+</html>

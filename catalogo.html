@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo - SurfAlquila</title>
+  <!-- Hoja de estilos externa compartida por todas las páginas -->
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <!-- Cabecera con logo y navegación (FLEXBOX) -->
+  <header>
+    <p class="logo">🌊 SurfAlquila</p>
+    <nav>
+      <ul><li><a href="index.html">Inicio</a></li><li><a href="catalogo.html" aria-current="page">Catálogo</a></li><li><a href="formulario.html">Reservar</a></li><li><a href="carrito.html">Carrito</a></li><li><a href="login.html">Acceder</a></li></ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Catálogo de material</h1>
+
+    <!-- Buscador y filtros (los botones son type="button" para no recargar la página) -->
+    <section class="herramientas">
+      <h2>Buscar y filtrar</h2>
+      <div class="buscador">
+        <label for="buscar">Buscar material</label>
+        <input type="text" id="buscar" name="buscar">
+        <button type="button" class="boton">Buscar</button>
+      </div>
+      <fieldset>
+        <legend>Filtros</legend>
+        <div class="buscador">
+          <label for="tipo">Tipo</label>
+          <select id="tipo" name="tipo">
+            <option>Todos</option>
+            <option>Tablas</option>
+            <option>Neoprenos</option>
+            <option>Packs</option>
+          </select>
+          <label for="precio">Precio máximo (€/día)</label>
+          <input type="number" id="precio" name="precio" min="5" max="50">
+          <button type="button" class="boton">Aplicar filtros</button>
+        </div>
+      </fieldset>
+    </section>
+
+    <p>Mostrando 1–6 de 18 resultados</p>
+
+    <!-- CATÁLOGO con GRID: 3 columnas flexibles, gap y filas que crecen -->
+    <section class="rejilla">
+        <article class="tarjeta destacada">
+          <img src="img/producto1.jpg" alt="Ilustración de Tabla soft 7'0">
+          <h3>Tabla soft 7'0</h3>
+          <p>Ideal para empezar, flota mucho.</p>
+          <p class="precio">12 €/día</p>
+          <a class="boton" href="detalle.html">Ver detalle</a>
+        </article>
+        <article class="tarjeta">
+          <img src="img/producto2.jpg" alt="Ilustración de Shortboard 6'2">
+          <h3>Shortboard 6'2</h3>
+          <p>Tabla ágil para surfistas con experiencia.</p>
+          <p class="precio">18 €/día</p>
+          <p class="aviso-pequeno">Detalle no disponible</p>
+        </article>
+        <article class="tarjeta">
+          <img src="img/producto3.jpg" alt="Ilustración de Longboard 9'0">
+          <h3>Longboard 9'0</h3>
+          <p>Remadas fáciles y olas suaves.</p>
+          <p class="precio">15 €/día</p>
+          <p class="aviso-pequeno">Detalle no disponible</p>
+        </article>
+        <article class="tarjeta">
+          <img src="img/producto4.jpg" alt="Ilustración de Neopreno 3/2">
+          <h3>Neopreno 3/2</h3>
+          <p>Para primavera y otoño.</p>
+          <p class="precio">8 €/día</p>
+          <p class="aviso-pequeno">Detalle no disponible</p>
+        </article>
+        <article class="tarjeta">
+          <img src="img/producto5.jpg" alt="Ilustración de Neopreno 4/3">
+          <h3>Neopreno 4/3</h3>
+          <p>Para aguas frías de invierno.</p>
+          <p class="precio">10 €/día</p>
+          <p class="aviso-pequeno">Detalle no disponible</p>
+        </article>
+        <article class="tarjeta">
+          <img src="img/producto6.jpg" alt="Ilustración de Pack principiante">
+          <h3>Pack principiante</h3>
+          <p>Tabla soft, neopreno y leash.</p>
+          <p class="precio">25 €/día</p>
+          <p class="aviso-pequeno">Detalle no disponible</p>
+        </article>
+    </section>
+
+    <!-- Paginación: la página actual se distingue con aria-current, negrita y subrayado -->
+    <nav aria-label="Paginación" class="paginacion">
+      <button type="button" class="boton">Anterior</button>
+      <span aria-current="page" class="actual">1</span>
+      <span>2</span>
+      <span>3</span>
+      <button type="button" class="boton">Siguiente</button>
+    </nav>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2026 SurfAlquila - JCR</p>
+  </footer>
+</body>
+</html>
