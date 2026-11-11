@@ -15,6 +15,8 @@ Acceso de usuarios, búsqueda, filtros, paginación, carrito (añadir/eliminar/r
 ## Imágenes
 Ilustraciones JPG y SVG sencillas creadas para el proyecto.
 
+Enlace a la pagina: https://jorgeceleiror.github.io/Web-JCR-Dise-oWeb/
+
 ## Documentación
 - [Propuesta](docs/propuesta.md)
 - [Bocetos](docs/bocetos/)
